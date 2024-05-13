@@ -7,9 +7,16 @@ body {
   padding: 40px 40px 40px 40px;
   font-family: "Montserrat", sans-serif;
 }
+ul,
+ol {
+  margin-top: 0;
+  margin-bottom: 0;
+}
 .wrapper {
   background: #ffffff;
   display: flex;
+  width: 1200px;
+  margin: 0 auto;
   flex-direction: row-reverse;
 }
 /* Main content */
@@ -82,4 +89,143 @@ body {
 }
 .skills-container {
   margin-bottom: 40px;
+}
+
+/* Main content */
+
+.my-profession {
+  color: #000;
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 17px;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-name {
+  color: #000;
+  font-weight: 700;
+  font-size: 45px;
+  line-height: 55px;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.my-descr {
+  color: #595959;
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+}
+.my-info {
+  margin-bottom: 40px;
+}
+/* My projects */
+.my-projects-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.my-projects-item {
+  font-weight: 700;
+  font-size: 14px;
+  line-height: 24px;
+  color: #000;
+}
+.my-projects-list {
+  padding-left: 16px;
+}
+.my-projects-item-link {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  text-decoration: underline;
+  color: #005fff;
+}
+.my-projects-item-tech {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+.my-projects-container {
+  margin-bottom: 40px;
+}
+/* Work exprience */
+.work-exprience-container {
+  margin-bottom: 12px;
+}
+.work-exprience-title {
+  font-weight: 700;
+  font-size: 22px;
+  line-height: 27px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.work-exprience-company {
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 20px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 12px;
+}
+.company-name {
+  color: #6d9bf5;
+}
+.work-exprience-period {
+  font-weight: 400;
+  font-size: 12px;
+  line-height: 15px;
+  color: #a8a8a8;
+  margin-bottom: 8px;
+}
+.work-exprience-period-separator {
+  color: #000;
+}
+.work-exprience-duties-list {
+  padding-left: 16px;
+}
+.work-exprience-duties-item {
+  font-weight: 400;
+  font-size: 14px;
+  line-height: 24px;
+  color: #595959;
+}
+/* Education */
+.education-container {
+  margin-top: 40px;
+}
+.education-title {
+  font-weight: 700;
+  font-size: 22px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-institution {
+  font-weight: 700;
+  font-size: 16px;
+  color: #6d9bf5;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-exprience-period {
+  font-weight: 400;
+  font-size: 12px;
+  color: #a8a8a8;
+  margin-top: 0;
+  margin-bottom: 8px;
+}
+.education-exprience-period-separator {
+  color: #000;
+}
+.education-profession {
+  font-weight: 700;
+  font-size: 14px;
+  color: #000;
+  margin-top: 0;
+  margin-bottom: 8px;
 }
