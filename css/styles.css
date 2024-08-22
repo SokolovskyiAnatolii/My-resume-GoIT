@@ -11,8 +11,6 @@ ol {
 .wrapper {
   background: #ffffff;
   display: flex;
-  width: 1200px;
-  margin: 0 auto;
   flex-direction: row-reverse;
 }
 /* Main content */
@@ -275,6 +273,7 @@ ol {
 @media screen and (max-width: 510px) {
   .wrapper {
     flex-direction: column;
+    max-width: 510px;
   }
 
   .sidebar {
